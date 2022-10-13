@@ -15,7 +15,7 @@ class Solution{
         for(int i=0; i<n; i++){
             total += a[i];
         }
-        int sum=0, flag=0, i=0, before=0;
+        int sum=0,i=0, before=0;
         while(i<n){
             int after = total-a[i]-before;
             if(after==before)
